@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Mission 02</title>
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="icon" href="/img/icon.webp" />
+</head>
+<body>
+
+    <!--Intro-->
+    <h1>Josh Brown</h1>
+    <img style="width: 300px" src="/img/football.JPG" />
+    <br />
+
+    <p>
+        I am hoping that I can get a good understanding of web applications in general from this class.
+        I also hope to have a descent grasp on the C# language by the end of this class.
+    </p>
+    <br />
+
+    <!--Job Selections-->
+    <h3>Cool Jobs</h3>
+    <ul>
+        <li>Security Officer</li>
+        <li>Project Manager</li>
+        <li>Database Administrator</li>
+    </ul>
+    <br />
+
+    <!--Grade Calculator-->
+    <h3>Grade Calculator</h3>
+    <form>
+        <label for="assignment">Assignments Percent</label>
+        <input id="assignment" type="number" min="0" max="100" value="0"/>
+        <br />
+
+        <label for="groupProjects">Group Projects Percent</label>
+        <input id="groupProjects" type="number" min="0" max="100" value="0"/>
+        <br />
+
+        <label for="quizzes">Quizzes Percent</label>
+        <input id="quizzes" type="number" min="0" max="100" value="0"/>
+        <br />
+
+        <label for="exams">Exams Percent</label>
+        <input id="exams" type="number" min="0" max="100" value="0"/>
+        <br />
+
+        <label for="intex">INTEX Percent</label>
+        <input id="intex" type="number" min="0" max="100" value="0"/>
+        <br />
+
+        <button id="button" type="submit">Calculate Grade</button>
+    </form>
+
+    <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="/js/calculator.js"></script>
+</body>
+</html>
